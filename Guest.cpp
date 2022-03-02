@@ -1,3 +1,4 @@
+
 #include "Guest.h"
 #include <string>
 using namespace std;
@@ -45,6 +46,7 @@ bool Guest::setAge(int a)
         age = a;
         return true;
     }
+    return false; 
 }
 string Guest::getName()
 {

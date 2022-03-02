@@ -8,7 +8,7 @@ using namespace std;
 class Guest{
     private:
         string name{"\0"}, email{"\0"}, address{"\0"}, location {"\0"};
-        int age{18};
+        int age{0};
 
     public:
         bool setName(string n);

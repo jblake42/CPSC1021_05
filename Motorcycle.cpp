@@ -69,7 +69,7 @@ int Motorcycle::getYear()
     return year;
 }
 
-int Motorcycle::getCC();
+int Motorcycle::getCC()
 {
     return cc;
 }

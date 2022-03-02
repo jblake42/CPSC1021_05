@@ -51,4 +51,26 @@ bool Motorcycle::setCC(int c)
     return false; 
 }
 
+string Motorcycle::getMake()
+{
+    return make;
+}
+string Motorcycle::getModel()
+{
+    return model; 
+}
+string Motorcycle::getColor()
+{
+    return color;
+}
+
+int Motorcycle::getYear()
+{
+    return year;
+}
+
+int Motorcycle::getCC();
+{
+    return cc;
+}
 

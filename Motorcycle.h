@@ -18,8 +18,8 @@ class Motorcycle{
         string getMake();
         string getModel();
         string getColor();
-        int setYear();
-        int setCC();
+        int getYear();
+        int getCC();
         
 };  
 

@@ -10,6 +10,8 @@ class Motorcycle{
         int year{0}, cc{0};
     
     public: 
+        Motorcycle() = default;
+        Motorcycle(string ma, string mo, int y, int c, string co) : make{ma}, model{mo}, year{y}, cc{c}, color{co} {}
         bool setMake(string ma);
         bool setModel(string mo);
         bool setYear(int y);

@@ -11,6 +11,9 @@ class Guest{
         int age{0};
 
     public:
+        Guest() = default;
+        Guest(string n, string e, string a, string L, int ag) : name{n}, email{e}, address{a}, location{L}, age{ag} {}
+        
         bool setName(string n);
         bool setEmail(string e);
         bool setAddress(string a);
@@ -19,6 +22,7 @@ class Guest{
         string getName();
         string getEmail();
         string getAddress(); 
+        string getLocation();
         int getAge();
 
 
